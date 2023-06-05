@@ -14,11 +14,14 @@ export const styles = StyleSheet.create({
     text: {
         color: colors.white,
         fontSize: 16,
-        fontWeight: "500",
+        fontWeight: "bold",
     },
     icon: {
         width: 24,
         height: 24,
         marginLeft: 16,
+    },
+    blueBg: {
+        backgroundColor: colors.blue,
     },
 })

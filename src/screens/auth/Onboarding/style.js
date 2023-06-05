@@ -13,8 +13,7 @@ export const styles = StyleSheet.create({
     },
     content: {
         padding: 46,
-        borderTopLeftRadius: 30,
-        borderTopRightRadius: 30,
+        backgroundColor: colors.white,
     },
     title: {
         color: colors.black,
@@ -28,7 +27,7 @@ export const styles = StyleSheet.create({
         textAlign: "center",
         marginVertical: 16,
     },
-    footer:{
+    footer: {
         position: 'absolute',
         height: 20,
         width: '100%',
